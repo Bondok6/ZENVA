@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+}
+
+a{
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+}
+
+/* Start Hero */
+#hero {
+  background: url(img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+
+#hero h1,
+#hero h3 {
+  font-size: 28px;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 40px;
+}
+
+#hero h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.btn a {
+  color: #fff;
+  background-color: #131633;
+  padding: 20px 46px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #fff;
+  text-decoration: none;
+  transition: .5s;
+  font-size: 1rem;
+}
+
+.btn a:hover {
+  background-color: #2196f3;
+}
+
+@media(max-width:800px) {
+  #hero {
+    min-height: 600px;
+  }
+
+  #hero h1 {
+    font-size: 36px;
+  }
+
+  #hero h3 {
+    font-size: 18px;
+  }
+
+  #hero .btn a {
+    padding: 15px 40px;
+  }
+}
+/* End Hero */
+
+
+
+
+/* Start Footer */
+footer{
+  background: linear-gradient(#5381b6,#000 100%);
+  display: flex;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul{
+  display: flex;
+  margin-bottom: 25px;
+}
+footer ul li{
+  margin: 0 8px;
+}
+footer ul li a{
+  font-size: 36px;
+}
+
+footer p{
+  color: rgba(255, 255, 255, .6);
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:800px){
+  footer {
+    padding: 80px 15px;
+  }
+}
+/* End Footer */
