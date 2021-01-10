@@ -85,6 +85,60 @@ ul{
 }
 /* End Hero */
 
+/* Start About */
+#about {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+}
+
+h2.title {
+  color: #131633;
+  text-align: center;
+  font-size: 32px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+.two-cols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .image {
+  border: 4px solid #2196f3;
+  background-color: #2196f3;
+}
+
+#about .bio {
+  width: 65%;
+  max-width: 800px;
+  line-height: 2;
+  margin-left: 20px;
+}
+
+hr {
+  width: 150px;
+  height: 2px;
+  margin: 40px auto;
+  background-color: #2196f3;
+  border: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .two-cols {
+    flex-direction: column;
+  }
+
+  .bio {
+    margin-top: 20px;
+    line-height: 1.5;
+    text-align: left;
+  }
+}
+/* End About */
+
 /* Start Footer */
 footer{
   background: linear-gradient(#5381b6,#000 100%);
