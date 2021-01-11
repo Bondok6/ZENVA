@@ -181,6 +181,65 @@ hr {
 }
 /* End Gallery */
 
+/* Start Travel */
+#travel {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto 60px;
+}
+
+.travel-content {
+  padding: 0 10px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.ico {
+  font-size: 40px;
+  color: #2196f3;
+  margin-bottom: 20px;
+}
+
+#travel h4 {
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.cards p {
+  text-align: left;
+  margin: 0;
+}
+
+div.cards>div {
+  margin-right: 25px;
+}
+
+@media(max-width: 1000px) {
+  #travel {
+    padding: 0 100px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+
+  }
+
+  .cards p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/* End Travel */
+
 /* Start Footer */
 footer{
   background: linear-gradient(#5381b6,#000 100%);
