@@ -111,7 +111,7 @@ h2.title {
   background-color: #2196f3;
 }
 
-#about .bio {
+.bio {
   width: 65%;
   max-width: 800px;
   line-height: 2;
@@ -138,6 +138,47 @@ hr {
   }
 }
 /* End About */
+
+/* Start Gallery */
+.words {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  line-height: 2;
+  max-width: 800px;
+}
+
+.image-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.small {
+  width: 35%;
+  height: 310px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.large {
+  width: 55%;
+  height: 310px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+
+  .small,
+  .large {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0;
+  }
+
+}
+/* End Gallery */
 
 /* Start Footer */
 footer{
