@@ -273,6 +273,23 @@ div.cards>div {
 }
 /* End Quotes */
 
+/* Start contact */
+.contact-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-flex p {
+  max-width: 900px;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 35px;
+  line-height: 1.5;
+}
+/* End contact */
+
 /* Start Footer */
 footer{
   background: linear-gradient(#5381b6,#000 100%);
