@@ -1,2 +1,2 @@
 # ZENVA
-A simple responsive frontend template
+A simple responsive frontend template.
