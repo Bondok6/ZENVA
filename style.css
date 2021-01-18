@@ -8,6 +8,7 @@
 html{
   font-family: 'Raleway', sans-serif;
   color: #555;
+  scroll-behavior: smooth;
 }
 
 a{
@@ -19,6 +20,58 @@ ul{
   list-style: none;
 }
 /* ####################################### */
+
+/* Start Header */
+header {
+  background-color: rgba(0, 0, 0, .6);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 35px 100px 20px;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a {
+  opacity: .6;
+  cursor: pointer;
+}
+
+header a:hover {
+  opacity: 1;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+@media(max-width: 1000px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 50px;
+  }
+
+  header img {
+    width: 75%;
+    padding-bottom: 7px;
+  }
+
+  header nav ul li {
+    padding: 0 5px;
+  }
+}
+/* End Header */
 
 /* Start Hero */
 #hero {
@@ -292,7 +345,7 @@ div.cards>div {
 
 /* Start Footer */
 footer{
-  background: linear-gradient(#5381b6,#000 100%);
+  background: linear-gradient(to bottom, #284e7a, #000 100%);
   color: #fff;
   padding: 60px 0;
   text-align: center;
