@@ -10,5 +10,7 @@
 
 - HTML
 - CSS
-
+- Google Fonts
+- Font Awesome
+- Responsive design
 
